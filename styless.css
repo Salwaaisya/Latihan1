@@ -1,0 +1,74 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Atur font dan background umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container utama */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Bagian biodata */
+.bio {
+    display: flex;
+    background-color: #f8efef;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(90, 45, 45, 0.1);
+}
+
+/* Gambar profil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Info biodata */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Set gaya untuk tiap item */
+.info h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+}
